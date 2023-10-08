@@ -127,11 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AppMode.cpp" />
+    <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="sqlite3.c" />
     <ClCompile Include="Test1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppMode.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="EmployeeInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
